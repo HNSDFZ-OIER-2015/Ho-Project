@@ -1,0 +1,14 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,100,51)
+  { LCDNumber1 LCDNumber
+    MoveScaled(42,6,20,9)
+    Value = 0.5
+  }
+  { Label1 Label
+    MoveScaled(22,6,31,9)
+    Font = Font["+6"]
+    Text = ("Ho Project  Ver")
+  }
+}
