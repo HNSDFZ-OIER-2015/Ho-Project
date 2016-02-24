@@ -19,9 +19,3 @@ Public Sub Button1_Click()
   Shell ("xdg-open http://www.baidu.com")
 
 End
-
-Public Sub Label2_MouseDown()
-
-  
-
-End

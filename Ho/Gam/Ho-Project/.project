@@ -1,8 +1,18 @@
 # Gambas Project File 3.0
+# Compiled with Gambas 3.5.4
 Title=Ho!
 Startup=FMain
+Icon=Ho.png
+Version=0.0.2
 Component=gb.image
 Component=gb.qt4
-Component=gb.qt4.ext
 Component=gb.form
-
+Component=gb.qt4.ext
+Description="The Ho-Project : Break the GFW."
+Authors="Ruan Xingzhi"
+TabSize=2
+Translate=1
+Language=zh
+ExecPath=/home/blue/桌面/Ho-Project/Ho/Ho-Project.gambas
+SourcePath=/home/blue/桌面
+Packager=1

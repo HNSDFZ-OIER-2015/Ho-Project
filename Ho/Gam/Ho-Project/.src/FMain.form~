@@ -3,6 +3,21 @@
 { Form Form
   MoveScaled(0,0,100,51)
   { LCDNumber1 LCDNumber
-    MoveScaled(40,25,35,18)
+    MoveScaled(33,4,20,9)
+    Value = 0.5
+  }
+  { Label1 Label
+    MoveScaled(13,4,31,9)
+    Font = Font["+6"]
+    Text = ("Ho Project  Ver")
+  }
+  { Button1 Button
+    MoveScaled(57,5,19,8)
+    Text = ("检查更新")
+  }
+  { Label2 Label
+    MoveScaled(11,19,79,15)
+    Font = Font["+3"]
+    Text = ("使用说明：\n\n终端执行sudo ./up\n")
   }
 }
