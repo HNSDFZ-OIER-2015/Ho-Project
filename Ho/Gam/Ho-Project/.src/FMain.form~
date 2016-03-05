@@ -1,7 +1,7 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,100,51)
+  MoveScaled(0,0,92,46)
   { LCDNumber1 LCDNumber
     MoveScaled(33,4,20,9)
     Value = 0.5
@@ -15,9 +15,17 @@
     MoveScaled(57,5,19,8)
     Text = ("检查更新")
   }
+  { Label3 Label
+    MoveScaled(27,36,45,4)
+    Text = ("Copyleft： GNU GPL 3及更高版本")
+  }
+  { Button2 Button
+    MoveScaled(17,17,54,11)
+    Font = Font["+5"]
+    Text = ("开始科学上网")
+  }
   { Label2 Label
-    MoveScaled(11,19,79,15)
-    Font = Font["+3"]
-    Text = ("使用说明：\n\n终端执行sudo ./up\n")
+    MoveScaled(84,51,31,4)
+    Text = ("这是个彩蛋233")
   }
 }

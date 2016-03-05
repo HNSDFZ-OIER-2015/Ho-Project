@@ -18,25 +18,30 @@ msgstr ""
 msgid "The Ho-Project : Break the GFW."
 msgstr ""
 
-#: FMain.form:21
+#: FMain.form:22
 msgid "Ho Project  Ver"
 msgstr ""
 
-#: FMain.form:26
+#: FMain.form:27
 msgid "检查更新"
 msgstr ""
 
 #: FMain.form:32
-msgid ""
-"使用说明：\n"
-"\n"
-"终端执行sudo ./up\n"
-msgstr ""
-
-#: FMain.form:37
 msgid "Copyleft： GNU GPL 3及更高版本"
 msgstr ""
 
+#: FMain.form:38
+msgid "开始科学上网"
+msgstr ""
+
+#: FMain.form:43
+msgid "这是个彩蛋233"
+msgstr ""
+
 #: FMain.class:19
-msgid "xdg-open http://www.baidu.com"
+msgid "xdg-open http://ruanxingzhi.github.io"
+msgstr ""
+
+#: FMain.class:32
+msgid "gksudo 'gnome-terminal -x ./up' "
 msgstr ""

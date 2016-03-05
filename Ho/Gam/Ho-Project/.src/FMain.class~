@@ -16,6 +16,31 @@ End
 
 Public Sub Button1_Click()
 
-  Shell ("xdg-open http://www.baidu.com")
+  Shell ("xdg-open http://ruanxingzhi.github.io")
+'Shell ("gksudo 'wget www.baidu.com -O /etc/wow.txt'")
+
+End
+
+Public Sub Label2_MouseDown()
+
+  
+
+End
+
+Public Sub Button2_Click()
+
+  Shell ("gksudo 'gnome-terminal ./up'")
+
+End
+
+Public Sub HBox1_MouseDown()
+
+  
+
+End
+
+Public Sub LCDLabel1_MouseDown()
+
+  
 
 End

@@ -4,6 +4,7 @@
 #define WAR "\033[1;33m[*]Warning:\033[0m" 
 #define EOR "\033[1;31m[x]ERROR:\033[0m"
 #define NICE "\033[1;32m[√]Nice:\033[0m"
+#define EXIT printf("请按enter键退出...\n")
 
 void finish()
 {
@@ -20,6 +21,7 @@ void finish()
 
 	printf(NICE"覆盖成功！\n越过长城，走向世界！\n\n");
 
+	EXIT;
 	exit(0);
 	
 }
@@ -76,6 +78,7 @@ main()
 	}
 
 	printf(EOR"所有源全部失效！请联系ruanxingzhi@gmail.com!\n");
+	EXIT;
 	exit(4);
 
 }
